@@ -58,11 +58,15 @@
         android:layout_gravity="center"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/buttonshape"
         android:text="Main Menu"
         android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/test"
+        android:elevation="200dp"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Record1" />
+
 </android.support.constraint.ConstraintLayout>
