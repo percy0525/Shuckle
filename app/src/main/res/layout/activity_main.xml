@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shuckle1" />
+        app:srcCompat="@drawable/shuckle3" />
 
 
     <TextView
@@ -41,26 +41,27 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@mipmap/bug_round" />
+        app:srcCompat="@drawable/ball1" />
 
     <Button
         android:id="@+id/button_single"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/main"
-        android:text="Struggle Bug"
+        android:text="Pitch"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,27 +71,27 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="32dp"
-
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:srcCompat="@mipmap/rock_round" />
+        app:srcCompat="@drawable/ball2" />
 
     <Button
         android:id="@+id/button_double"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/main"
-        android:text="Rock Throw"
+        android:text="Melody"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,26 +101,27 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@mipmap/gyro_round" />
+        app:srcCompat="@drawable/ball3" />
 
     <Button
         android:id="@+id/button_triple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/main"
-        android:text="Gyro Ball"
+        android:text="Song"
+        android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

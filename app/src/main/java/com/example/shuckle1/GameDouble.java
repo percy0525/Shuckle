@@ -36,10 +36,7 @@
 package com.example.shuckle1;
 
 import android.app.Activity;
-import android.app.Application;
-import android.content.res.Resources;
 import android.media.MediaPlayer;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -48,9 +45,8 @@ import android.widget.TextView;
 
 import com.marcok.stepprogressbar.StepProgressBar;
 
-
-import java.lang.reflect.Array;
-import java.util.Locale;
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
 
 public class GameDouble extends Activity
         implements View.OnTouchListener, View.OnClickListener {
@@ -84,8 +80,6 @@ public class GameDouble extends Activity
         mStepProgressBar = (StepProgressBar) findViewById(R.id.stepProgressBar);
         mStepProgressBar.setCumulativeDots(true);
         mStepProgressBar.setCurrentProgressDot(-1);
-
-
 
         // Set on touch listener
 
@@ -163,13 +157,6 @@ public class GameDouble extends Activity
     // Listener for sending initial midi messages when the Sonivox
     // synthesizer has been started, such as program change.
     // Send a midi message, 2 bytes
-    protected void sendMidi() {
-        byte msg[] = new byte[2];
-
-        msg[0] = (byte) 0xc0;
-        msg[1] = (byte) 6;
-
-    }
 
     public void soundOne(View v) {
 
@@ -245,14 +232,6 @@ public class GameDouble extends Activity
     public void gamereset(View v) {
         tmpString = "";
         mStepProgressBar.setCurrentProgressDot(-1);
-    }
-
-    public void gamestart(View v) throws InterruptedException {
-
-        System.out.println(answer[level].length());
-        System.out.println(answer[level]);
-        System.out.println(level);
-        startlevel();
     }
 
     public void startlevel() throws InterruptedException {
@@ -497,9 +476,7 @@ public class GameDouble extends Activity
                 break;
 
         }
-
         //btn_sound.setEnabled(true);
-
     }
 
 
