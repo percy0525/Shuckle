@@ -13,9 +13,9 @@
         android:layout_height="125dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:typeface="monospace"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="32dp" />
+        android:textSize="32dp"
+        android:typeface="monospace" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,16 +27,12 @@
 
         <Button
             android:id="@+id/Do"
-
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/ripdo"
             android:onClick="soundOne"
             android:shadowColor="#A8A8A8"
-            android:shadowRadius="4"
-            android:text=""
-            android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:shadowRadius="4" />
 
         <Button
             android:id="@+id/Re"
@@ -63,6 +59,17 @@
             android:background="@drawable/ripfa"
             android:onClick="soundOne"
             android:text="" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12"
+            app:srcCompat="@drawable/ball2" />
     </LinearLayout>
 
     <LinearLayout
@@ -87,6 +94,8 @@
             app:inactiveDotIcon="@drawable/inactive_dot"
             app:numberDots="4"
             app:spacing="20dp" />
+
+
     </LinearLayout>
 
 
@@ -102,16 +111,16 @@
             android:id="@+id/soundout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/buttonshape"
-            android:textAllCaps="false"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
             android:shadowColor="#A8A8A8"
             android:shadowDx="8"
             android:shadowDy="8"
             android:shadowRadius="5"
             android:text="Sound"
+            android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="36sp" />
 
@@ -119,20 +128,19 @@
             android:id="@+id/reset"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/buttonshape"
-            android:textAllCaps="false"
-            android:onClick="gamereset"
-            android:shadowColor="#A8A8A8"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:onClick="gamereset"
+            android:shadowColor="#A8A8A8"
             android:shadowDx="8"
             android:shadowDy="8"
             android:shadowRadius="2"
             android:text="Reset"
+            android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="36sp" />
-
 
     </LinearLayout>
 

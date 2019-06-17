@@ -38,26 +38,22 @@ package com.example.shuckle1;
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.graphics.Color;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.marcok.stepprogressbar.StepProgressBar;
-
-import pl.droidsonroids.gif.GifDrawable;
-import pl.droidsonroids.gif.GifImageView;
 
 public class GameDouble extends Activity
         implements View.OnTouchListener, View.OnClickListener {
-
 
     private TextView text;
     private Button btn_sound;
     public MediaPlayer player;
     public MediaPlayer correctPlayer;
     public StepProgressBar mStepProgressBar;
-
 
     String[] answer = {
             "1234",
@@ -80,6 +76,7 @@ public class GameDouble extends Activity
         mStepProgressBar = (StepProgressBar) findViewById(R.id.stepProgressBar);
         mStepProgressBar.setCumulativeDots(true);
         mStepProgressBar.setCurrentProgressDot(-1);
+
 
         // Set on touch listener
 
@@ -114,7 +111,6 @@ public class GameDouble extends Activity
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         int action = event.getAction();
-        System.out.println("qqq");
 
         switch (action) {
             case MotionEvent.ACTION_DOWN:
