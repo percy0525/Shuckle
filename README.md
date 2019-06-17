@@ -5,5 +5,6 @@ Once upon a time, there was a pokemon named Shuckle. He believed that he was bor
 "The distance between dreams and reality is called discipline."
 
 ## Description
+Bellsprout taught Shuckle 3 methods to improve his singing skills. "Practice makes perfect." By keep reviewing these tips, Shuckle wiil sure realize his dream.
 
-AAD_final_1080617_2038
+### First
