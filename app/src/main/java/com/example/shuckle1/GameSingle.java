@@ -3,6 +3,7 @@ package com.example.shuckle1;
 import android.content.Intent;
 import android.graphics.Color;
 import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -114,7 +115,7 @@ public class GameSingle extends AppCompatActivity {
                         button_DO.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -134,7 +135,7 @@ public class GameSingle extends AppCompatActivity {
                         button_DI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
 
@@ -156,7 +157,7 @@ public class GameSingle extends AppCompatActivity {
                         button_RE.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -177,7 +178,7 @@ public class GameSingle extends AppCompatActivity {
                         button_RI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -198,7 +199,7 @@ public class GameSingle extends AppCompatActivity {
                         button_MI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -219,7 +220,7 @@ public class GameSingle extends AppCompatActivity {
                         button_FA.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -240,7 +241,7 @@ public class GameSingle extends AppCompatActivity {
                         button_FI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -261,7 +262,7 @@ public class GameSingle extends AppCompatActivity {
                         button_SOL.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -282,7 +283,7 @@ public class GameSingle extends AppCompatActivity {
                         button_SI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -303,7 +304,7 @@ public class GameSingle extends AppCompatActivity {
                         button_LA.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -324,7 +325,7 @@ public class GameSingle extends AppCompatActivity {
                         button_LI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }
@@ -345,7 +346,7 @@ public class GameSingle extends AppCompatActivity {
                         button_TI.setBackgroundColor(Color.RED);
                         valid = true;
                         button_NEXT.setText("Game Over");
-                        button_NEXT.setBackgroundColor(Color.RED);
+                        button_NEXT.setBackgroundResource(R.drawable.buttonshape2);
                     }
                     count++;
                 }

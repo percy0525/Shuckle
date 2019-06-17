@@ -32,6 +32,7 @@
         android:layout_height="125dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
+        android:typeface="monospace"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="32dp" />
 
@@ -116,20 +117,22 @@
         android:orientation="horizontal"
         tools:ignore="ButtonStyle">
 
-
         <Button
             android:id="@+id/soundout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/buttonshape"
+            android:textAllCaps="false"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
+            android:shadowDx="8"
+            android:shadowDy="8"
             android:shadowRadius="5"
             android:text="Sound"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="36sp" />
 
         <Button
             android:id="@+id/reset"
@@ -137,14 +140,18 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/buttonshape"
+            android:textAllCaps="false"
             android:onClick="gamereset"
             android:shadowColor="#A8A8A8"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="5"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="2"
             android:text="Reset"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="36sp" />
+
 
 
     </LinearLayout>

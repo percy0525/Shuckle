@@ -86,6 +86,7 @@ public class GameDouble extends Activity
         mStepProgressBar.setCurrentProgressDot(-1);
 
 
+
         // Set on touch listener
 
         View v = findViewById(R.id.soundout);
@@ -219,10 +220,12 @@ public class GameDouble extends Activity
                 mStepProgressBar.setNumDots(mStepProgressBar.getNumDots() + 1);
                 level += 1;
                 text.setText("LEVEL " + (level + 1));
-                if(level==5)
-                {
+                if (level == 5) {
                     text.setText("You win！ ");
                     mStepProgressBar.setCurrentProgressDot(-1);
+                    final Button button_reset = (Button) findViewById(R.id.reset);
+                    button_reset.setText("Menu");
+                    button_reset.setBackgroundResource(R.drawable.buttonshape2);
                 }
 
             } else {
